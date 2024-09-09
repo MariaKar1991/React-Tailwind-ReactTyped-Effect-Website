@@ -1,8 +1,13 @@
-# React + Vite
+## React Tailwind CSS Project with Mobile-First Responsive Design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a React application built using Tailwind CSS, incorporating a mobile-first responsive approach, various custom components, and a React Typed effect.
 
-Currently, two official plugins are available:
+## Link to Vercel: https://react-tailwind-react-typed-effect-website.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features:
+- Mobile-First Design: The layout adapts seamlessly to different screen sizes, ensuring optimal user experience on all devices.
+- Tailwind CSS: Utilizes Tailwind CSS for rapid and efficient styling.
+- Custom Components: Includes custom-designed components for navigation, cards, newsletter, footer, etc.
+- React Typed Effect: Incorporates a React Typed effect for dynamic text animation.
+
+## Happy Coding 🚀
