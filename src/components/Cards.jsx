@@ -1,6 +1,4 @@
-import Single from '/images/single.png'
-import Double from '/images/double.png'
-import Triple from '/images/triple.png'
+import assets from '../assets/assets'
 
 const Cards = () => {
   return (
@@ -8,7 +6,7 @@ const Cards = () => {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            src={Single}
+            src={assets.Single}
             alt="single icon"
             className="w-20 mx-auto mt-[-3rem] bg-white"
           />
@@ -25,7 +23,7 @@ const Cards = () => {
         </div>
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
-            src={Double}
+            src={assets.Double}
             alt="double icon"
             className="w-20 mx-auto mt-[-3rem] bg-transparent"
           />
@@ -42,7 +40,7 @@ const Cards = () => {
         </div>
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            src={Triple}
+            src={assets.Triple}
             alt="triple icon"
             className="w-20 mx-auto mt-[-3rem] bg-white"
           />

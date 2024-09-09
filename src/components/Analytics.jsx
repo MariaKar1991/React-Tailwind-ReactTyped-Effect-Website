@@ -1,4 +1,4 @@
-import Laptop from '/images/laptop.jpg'
+import assets from '../assets/assets'
 
 const Analytics = () => {
   return (
@@ -6,7 +6,7 @@ const Analytics = () => {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img
           className="w-[500px] mx-auto my-4"
-          src={Laptop}
+          src={assets.Laptop}
           alt="laptop image"
         />
         <div className="flex flex-col justify-center">
